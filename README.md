@@ -59,6 +59,7 @@
   hold at least two API configuration variables.
   ```js
   "dotenv": "^4.0.0",
+  "lodash": "^4.17.4",
   ```
 
 ### VSCode Settings File
