@@ -1,0 +1,30 @@
+{
+  "plugins": ["react", "security"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:security/recommended"
+  ],
+  "rules": {
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "warn",
+    "react/prop-types": [2, { "skipUndeclared": true }],
+    "no-console": "warn",
+    "no-debugger": "off"
+  }
+}

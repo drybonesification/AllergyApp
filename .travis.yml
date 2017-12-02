@@ -1,0 +1,8 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=c2bdacb2a2e23e57b0b49996ed368c2b6f097a1e42fb331ed2eb8b7e5b8262b3
+language: node_js
+node_js:
+  - "node"
+notifications:
+  email: false

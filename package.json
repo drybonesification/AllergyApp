@@ -1,0 +1,31 @@
+{
+  "name": "allergyapp",
+  "version": "0.1.0",
+  "repository": "https://github.com/drybonesification/AllergyApp",
+  "private": false,
+  "devDependencies": {
+    "ajv": "^5.5.0",
+    "codecov": "^3.0.0",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-watch": "^3.1.3",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
